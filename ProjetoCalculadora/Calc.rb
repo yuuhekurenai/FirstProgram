@@ -59,4 +59,3 @@ loop do
   puts "-" * 30
 end
 
-puts "Calculadora encerrada!"
