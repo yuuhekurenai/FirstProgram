@@ -56,6 +56,5 @@ loop do
               end
 
   puts "Resultado: #{resultado}"
-  puts "-" * 30
 end
 
