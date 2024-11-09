@@ -34,9 +34,9 @@ loop do
   break if opcao == 5
 
   print "Digite o primeiro número: "
-  num1 = gets.to_f
+  num1 = gets.to_i
   print "Digite o segundo número: "
-  num2 = gets.to_f
+  num2 = gets.to_i
 
   resultado = case opcao
               when 1
