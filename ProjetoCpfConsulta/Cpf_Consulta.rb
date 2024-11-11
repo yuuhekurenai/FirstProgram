@@ -20,7 +20,7 @@ puts "Digite um CPF (apenas números):"
 cpf_input = gets.chomp
 
 # .gsub para remover caracteres não numéricos
-cpf_input.gsub!(/\D/, '')
+cpf_input.gsub!(/\D/  , '')
 
 # validar e formatar o cpf adicionando as pontuações corretas.
 validar_cpf(cpf_input)
